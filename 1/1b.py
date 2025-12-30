@@ -56,3 +56,9 @@ if __name__ == "__main__":
         total += clicks
         
     print(total)
+
+def test_example():
+    assert 1 + 1 == 2
+
+def test_fail():
+    assert 1 + 1 == 3
